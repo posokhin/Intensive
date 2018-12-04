@@ -1,0 +1,56 @@
+$fc:'Comfortaa', cursive;
+$fp:'Playfair Display SC', serif;
+
+.banner-two{
+    background: url(../../assets/img/banner2.png) no-repeat center/cover;
+    width: 100%;
+    padding-top: 62.062016%;
+    position: relative;
+
+    ul{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        width: 80%;
+
+        li{
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+    }
+
+    &__btn{
+        a{
+        position: absolute;
+        font-family: $fc;
+        color: white;
+        font-size: 2em;
+        background: #ff0000;
+        border-radius: 25px;
+        width: 390px;
+        margin: 0 auto;
+        height: 85px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        bottom: 20%;
+        left: 36%;
+        }
+        a:hover{
+            background: white;
+            color: black;
+            border:1px solid black;
+        }
+    }
+}

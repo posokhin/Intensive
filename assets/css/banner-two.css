@@ -1,0 +1,43 @@
+.banner-two {
+  background: url(../../assets/img/banner2.png) no-repeat center/cover;
+  width: 100%;
+  padding-top: 62.062016%;
+  position: relative; }
+  .banner-two ul {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    width: 80%; }
+    .banner-two ul li {
+      margin-bottom: 50px;
+      font-weight: bold; }
+  .banner-two__btn a {
+    position: absolute;
+    font-family: "Comfortaa", cursive;
+    color: white;
+    font-size: 2em;
+    background: #ff0000;
+    border-radius: 25px;
+    width: 390px;
+    margin: 0 auto;
+    height: 85px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    bottom: 20%;
+    left: 36%; }
+  .banner-two__btn a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black; }
