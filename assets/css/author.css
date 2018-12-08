@@ -51,6 +51,9 @@
   margin: 0 auto;
   border-radius: 5px; }
 
+.program__wrap {
+  position: relative; }
+
 .program {
   background: #edf3fb;
   padding: 20px; }
@@ -60,7 +63,6 @@
     display: flex; }
   .program__img-left {
     width: 60%;
-    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

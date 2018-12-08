@@ -1,8 +1,8 @@
 .banner-two {
   background: url(../../assets/img/banner2.png) no-repeat center/cover;
   width: 100%;
-  padding-top: 62.062016%;
-  position: relative; }
+  position: relative;
+  height: 700px; }
   .banner-two ul {
     position: absolute;
     top: 20%;
@@ -35,8 +35,8 @@
     justify-content: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    bottom: 20%;
-    left: 36%; }
+    bottom: 5%;
+    left: 34%; }
   .banner-two__btn a:hover {
     background: white;
     color: black;

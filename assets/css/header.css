@@ -2,7 +2,6 @@
   width: 100%;
   background: #333333; }
   .header__menu {
-    padding: 30px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -24,4 +23,16 @@
         font-size: 1.5em;
         font-weight: bold; }
         .header__menu ul li a {
-          color: white; }
+          color: white;
+          display: block;
+          padding: 30px 0;
+          -webkit-transition: 0.3s;
+          transition: 0.3s; }
+        .header__menu ul li a:hover {
+          color: #cc3333; }
+
+.burger {
+  color: white;
+  padding: 5px 0;
+  font-size: 30px;
+  display: none; }

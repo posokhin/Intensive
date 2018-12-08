@@ -1,12 +1,12 @@
 $fc:'Comfortaa', cursive;
 $fp:'Playfair Display SC', serif;
 
-.banner-one{
-    background: url(../../assets/img/banner1.png) no-repeat center/cover;
-    width: 100%;
-    padding-top: 66.71875%;
+.banner-one {
     position: relative;
-
+    img{
+        //background: url(../../assets/img/banner1.png) no-repeat center/cover;
+        width: 100%;
+    }
     article{
         font-size: 4em;
         font-family: $fc;

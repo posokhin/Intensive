@@ -1,8 +1,7 @@
 .banner-one {
-  background: url(../../assets/img/banner1.png) no-repeat center/cover;
-  width: 100%;
-  padding-top: 66.71875%;
   position: relative; }
+  .banner-one img {
+    width: 100%; }
   .banner-one article {
     font-size: 4em;
     font-family: "Comfortaa", cursive;
