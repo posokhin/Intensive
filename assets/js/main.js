@@ -24,3 +24,38 @@ $('.price-label').on('click', function(){
 $('.fas').on('click',function(){
 	$('.header__menu').slideToggle();
 });
+
+
+$('form').on('keydown',function(event){
+	if(event.keyCode == 13) {
+	event.preventDefault();
+	return false;
+}
+});
+
+
+var promoBtn = document.querySelector('.promocode__confirm');
+var promoInput = document.querySelector('.promocode__input');
+var sum = document.querySelector('input[name="sum"]');
+var promoOk = $('.promocode__ok');
+var promofail = $('.promocode__fail');
+
+var attrSum = sum.getAttribute("value");
+
+
+promoBtn.onclick = function(e){
+	if(promoInput.value !=='start'){
+		promofail.fadeIn();
+	}
+	else{
+		promoOk.fadeIn();
+		promofail.hide();
+		sum.setAttribute('value','1490')
+		document.querySelector('.price__left-tarif p').innerHTML = '1490 руб.';
+	}
+}
+promoInput.onkeydown = function(){
+	promofail.hide();
+	promoOk.hide();
+}
+
